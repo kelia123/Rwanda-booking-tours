@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+.topnav{
+    width:100%;
+    background: rgba(0, 0, 0, 0.479);
+    padding: 10px 10px 10px 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: large;
+    display: flex;
+    box-shadow: 0px 0px 3px rgba(24, 24, 24, 0.767);
+
+    /* position: fixed; */
+}
+.logo{
+
+    width: 10%;
+    height: 50px;
+    background: rgb(235, 228, 228);
+    text-align: center ;
+}
+.navbar-right{
+    height: 70px;
+    width: 85%;
+    overflow: hidden;
+
+    /* background: cornflowerblue; */
+}
+.topnav a{
+    color: white;
+    padding: 20px;
+    font-size: larger;
+    /* background: rgb(117, 103, 103); */
+    float: right;
+    text-decoration: none;
+    height: 100%;
+}
+.topnav a:hover{
+    background: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+
+}
+.home-container{
+    width: 100%;
+    height: 5vh;
+    z-index: -2;
+}
+.home-container h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+
+    
+}
+body{
+    background-image: url("./Image/pexels-quang-nguyen-vinh-2161449.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+.quote-div{
+    width: 400px;
+    height: 65vh;
+    float: right;
+    padding: 50px;
+    margin-top: 100px;
+    margin-right: 90px;
+    background-color: rgba(206, 197, 197, 0.753);
+    box-shadow:1px 1px 1px 1px rgba(48, 45, 45, 0.644);
+}
+.quote-div p{
+    margin-top: 15px;
+}
+button{
+    background-color:white;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    border-color: rgba(0, 0, 0, 0.747);
+    margin-top: 130px;
+    margin-left: 50px;
+}
+ button a{
+    text-decoration: none;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+      sans-serif;
+      font-weight: bold;
+      font-size: large;
+}
+.tour-section-container{ 
+     width: 100%; 
+     height: 12vh; 
+     background-color: white; 
+     margin-top: 150vh; 
+     display: flex  
+}
+/* .tour section{
+    height: 12px;
+    width: 100%;
+    background-color: white;
+    display: flex; */
+/* } */
+.sub-container{
+    width: 100%;
+    height:90vh;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+
+}
+.tour-container h1{
+    margin-left: 30px;
+    font-family: -apple-system,
+     BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+     margin-top: 5px;
+     color:green
+
+}
+.tour-container{
+    width:50%;
+    height:90vh;
+    /* padding: 60px; */
+    background-color:white;
+}
+.tour-container label{
+    font-size:20px;
+    font-weight:bold;
+    padding-left:50px;
+}
+.tour-container select{
+    padding-left:220px;
+    padding-bottom:10px;
+    padding-top:10px;
+    margin-left:50px;
+    background-color:white;
+}
+.tour-container button{
+    float:left;
+    margin-top:50px
+
+}
+.signup-form1{
+    width:30%;
+    height:70vh;
+    background-color: white;
+    margin: 20px 35% 20px 35%;
+    color: black;
+    padding: 20px 20px 20px 40px;
+    
+}
+.signup-form1 h2{
+    text-align: center;
+    /* margin-left: 10px; */
+    padding-bottom:40px;
+    font-family: -apple-system,
+    BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.signup-form1 label{
+    font-size: large;
+    display: inline-block;
+    width: 100px;
+}
+.signup-form1 input{
+    padding: 7px;
+    margin-left: 10%;
+    width: 200px;
+}
+
+
+
+.signup-form2{
+    width:30%;
+    height:70vh;
+    background-color: white;
+    margin: 20px 35% 20px 35%;
+    color: black;
+    padding: 20px 20px 20px 40px;
+    
+}
+.signup-form2 h2{
+    text-align: center;
+    /* margin-left: 10px; */
+    padding-bottom:40px;
+    font-family: -apple-system,
+    BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.signup-form2 label{
+    font-size: large;
+    display: inline-block;
+    width: 100px;
+}
+.signup-form2 input{
+    padding: 7px;
+    margin-left: 10%;
+    width: 200px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
