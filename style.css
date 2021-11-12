@@ -57,7 +57,7 @@
     padding-top: 30px;   
 }
 body{
-    background-image: url("./image/cover.jpg");
+    background-image: url("./Image/cover.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
